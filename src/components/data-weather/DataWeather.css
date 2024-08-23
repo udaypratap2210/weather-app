@@ -1,0 +1,61 @@
+.daily-weather {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: auto;
+    font-size: 14px;
+  }
+  
+  .daily-weather .daily-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+  
+  .daily-weather .daily-item p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .daily-weather .daily-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .daily-weather .daily-item p:first-of-type {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .daily-weather .daily-item p:last-of-type {
+    font-size: 1em;
+  }
+  
+
+  .daily-weather::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .daily-weather::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  .daily-weather::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .daily-weather::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }

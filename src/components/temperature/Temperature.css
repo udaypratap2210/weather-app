@@ -1,0 +1,23 @@
+.temperature {
+    background: rgb(206, 206, 206);
+    border-radius: 500px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 0 30px 20px #1d1d1d36;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.temperature img {
+    margin-bottom: -5px;
+}
+
+.temperature h2 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 300;
+}

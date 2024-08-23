@@ -1,0 +1,11 @@
+.extra {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding-bottom: 30px;
+    height: 90px;
+}
+
+.extra .col .info {
+    padding-bottom: 10px;
+}
